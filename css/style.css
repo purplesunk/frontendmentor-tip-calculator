@@ -67,7 +67,8 @@ input:invalid:focus {
   outline: solid 0.125rem var(--clr-invalid);
 }
 
-input:focus {
+input:focus,
+input[data-selected="true"] {
   outline: solid 0.125rem var(--clr-primary);
 }
 
